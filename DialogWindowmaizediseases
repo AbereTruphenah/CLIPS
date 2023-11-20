@@ -1,0 +1,28 @@
+         CLIPS (V6.241 06/19/07)
+CLIPS> (load "F:/Documents/maizediseases.CLP")
+Defining defrule: galls-on-ears +j
+Defining defrule: olive-green-colored-powdery-mould +j
+Defining defrule: bright-pink-to-red-discoloration-at-the-nodes +j
+Defining defrule: raised-rust-colored-pustules-on-leaves +j
+Defining defrule: white-grey-or-pink-colored-fungal-growth-on-kernels +j
+Defining defrule: blue-green-powdery-mould-on-and-between-the-kernels +j
+Defining defrule: dark-green-fuzzy-mould-on-and-between-the-kernels +j
+Defining defrule: shiny-black-discoloration-that-cannot-be-scratched-off-the-rind +j
+TRUE
+CLIPS> (assert (raised rust colored pustules on leaves))
+<Fact-2>
+CLIPS> (run)
+Common Rust
+CLIPS> (assert (galls on ears))
+<Fact-3>
+CLIPS> (run)
+Common Smut
+CLIPS> (assert (olive green colored powdery mould))
+<Fact-4>
+CLIPS> (run)
+Aspergillus ear rot
+CLIPS> (assert (shiny black discoloration that cannot be scratched off the rind))
+<Fact-5>
+CLIPS> (run)
+Anthracnose Stalk Rot
+CLIPS> 
